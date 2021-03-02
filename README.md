@@ -9,7 +9,7 @@ $ mvn spring-boot:run
 
 default port: 8080 <br>
 
-[deafult test](https://localhost:8080/mp4/test)
+[deafult test](http://localhost:8080/mp4/test)
 
 url format for get method is 
 ```
