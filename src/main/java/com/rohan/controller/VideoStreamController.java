@@ -25,4 +25,8 @@ public class VideoStreamController {
         logger.info("streaming " + fileName + "." + fileType);
         return Mono.just(videoStreamService.prepareContent(fileName, fileType, httpRangeList));
     }
+    @GetMapping("/test")
+    public String test(){
+        return "post connected";
+    }
 }
